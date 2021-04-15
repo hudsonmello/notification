@@ -1,0 +1,29 @@
+{
+    "name": "hudsonmello/notification",
+    "description": "This is a library that uses composer as the basis for generat email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hudson Mello",
+            "email": "hudsonmello03@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Caio Henrique",
+            "role": "Developer motherfuck"  
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.4.0"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload":{
+        "psr-4": {
+            "Notification\\":"_app"
+        }
+    }
+}
